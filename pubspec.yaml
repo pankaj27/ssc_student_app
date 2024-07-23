@@ -1,0 +1,65 @@
+name: ssc_student_app
+description: "An online student management app for SSC"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+#-------------------Packages------------------------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #-----------Utility Package------------------------------
+
+
+  #------------Icons--------------------------------------
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  #-----------------State Management--------------------
+  get: ^4.6.6
+
+
+  #----------------Product Specific---------------------
+
+
+
+  #------------/*-- End of Package----------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+#---------------------------Local Assets--------------------
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
+
+#--------------------------Custom Fonts ------------------------
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
